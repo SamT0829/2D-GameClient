@@ -13,6 +13,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioClip buttonClickClip; 
     private Dictionary<string, AudioClip> musicNameMusicClipTable = new Dictionary<string, AudioClip>();
     private string test;
+    private string test1;
 
     AudioSource ambientSource;
     AudioSource musicSource;
